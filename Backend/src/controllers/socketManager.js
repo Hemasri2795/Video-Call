@@ -120,7 +120,8 @@ export const connectToSocket = (server) => {
 
 
                         if (connections[key].length === 0) {
-                            delete connections[key]
+                            delete connections[key];
+                            delete messages[key];
                         }
                     }
                 }
@@ -136,5 +137,4 @@ export const connectToSocket = (server) => {
 
     return io;
 }
-
 
