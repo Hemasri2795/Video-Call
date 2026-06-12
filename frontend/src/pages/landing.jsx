@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "../App.css"
 import { Link, useNavigate } from 'react-router-dom'
@@ -10,7 +11,7 @@ export default function LandingPage() {
         <div className='landingPageContainer'>
             <nav>
                 <div className='navHeader'>
-                    <h2>Video Call</h2>
+                    <h2>Apna Video Call</h2>
                 </div>
                 <div className='navlist'>
                     <p onClick={() => {

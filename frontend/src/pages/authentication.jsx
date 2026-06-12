@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -76,12 +77,7 @@ export default function Authentication() {
                     sm={4}
                     md={7}
                     sx={{
-                        width: '65vw',
-                        height: '100vh',
-                        // backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
-                        // backgroundImage: 'url(https://source.unsplash.com/1600x900/?nature,wallpaper)',
-                        backgroundImage: 'url(/login_image.jpg)',
-
+                        backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
                         backgroundRepeat: 'no-repeat',
                         backgroundColor: (t) =>
                             t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
